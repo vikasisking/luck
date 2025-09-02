@@ -25,7 +25,7 @@ CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/+2P-OUmWo1hc0NmNh")
 Support = os.getenv("Support", "https://t.me/cryptixbits")
 # Required channels for force join
 REQUIRED_CHANNELS = [
-    "@+7eCUH7aitEE4MjY0",
+   # "@+7eCUH7aitEE4MjY0",
     "@h2icoder",
     "@freeotpss"
 ]
