@@ -74,7 +74,7 @@ def get_join_channel_message():
             url = f"https://t.me/{channel[1:]}"
         else:
             url = f"https://t.me/c/{channel.replace('-100', '')}"  # For private channels with chat IDs
-        keyboard.append([InlineKeyboardButton(f"Join {channel}", url=url)])
+        keyboard.append([InlineKeyboardButton(f"🚀 Join 🚀", url=url)])
        # keyboard.append([InlineKeyboardButton(f"Join {channel2}", url=url)])
     keyboard.append([InlineKeyboardButton("✅ Check Membership", callback_data="check_membership")])
     return (
