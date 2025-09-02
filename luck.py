@@ -21,7 +21,7 @@ ADMIN_ID = int(os.getenv("ADMIN_ID", 6884253109))
 ADMIN_IDs = int(os.getenv("ADMIN_IDs", 7761576669))  ## Add admin ID for /hiden_25 command
 #ADMIN_IDS = [int(id) for id in os.getenv("ADMIN_IDS", "7761576669", "6884253109").split(",")]
 DEV_LINK = os.getenv("DEV_LINK", "https://t.me/hiden_25")
-CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/+2P-OUmWo1hc0NmNh")
+CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/+7eCUH7aitEE4MjY0")
 Support = os.getenv("Support", "https://t.me/cryptixbits")
 # Required channels for force join
 REQUIRED_CHANNELS = [
